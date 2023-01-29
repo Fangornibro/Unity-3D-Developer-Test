@@ -19,8 +19,8 @@ public class DifficultManager : MonoBehaviour
         {
             qs.isThree= true;
         }
-        cs.plusSpeed++;
-        qs.plusFruit += 1;
+        cs.plusSpeed += 0.5f;
+        qs.plusFruit++;
         s.TimeBetweenSpawns -= .1f;
         if (s.TimeBetweenSpawns <= 0.4f)
         {
